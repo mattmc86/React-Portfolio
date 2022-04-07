@@ -40,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="../assets/MattMcKennaCV0222.pdf"
+          href="https://mattmc86.github.io/mattMcKennaPortfolio/MattMcKennaCV0222.pdf"
           target="blank"
         >
           <Button variant="primary">View my CV</Button>

@@ -4,6 +4,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Movie from "../assets/project-images/movieAndBook.png";
+import Notes from "../assets/project-images/notes.png";
+import Tech from "../assets/project-images/techblog.png";
+import TTM from "../assets/project-images/TTM.png";
+import Weather from "../assets/project-images/weather.png";
+import Employee from "../assets/project-images/employee.png";
 // import movieAndBook from "../assets/project-images/movieAndBook";
 export default function Projects() {
   return (
@@ -14,10 +20,7 @@ export default function Projects() {
         <Row md={2}>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="../assets/project-images/movieAndBook.png"
-              />
+              <Card.Img variant="top" src={Movie} />
               <Card.Body>
                 <Card.Title>Movie and Book Generator</Card.Title>
                 <Card.Text>
@@ -35,7 +38,7 @@ export default function Projects() {
           </Col>
           <Col xs={6}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src={Weather} />
               <Card.Body>
                 <Card.Title>Weather App</Card.Title>
                 <Card.Text>
@@ -50,7 +53,7 @@ export default function Projects() {
           <Col>
             <br></br>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src={TTM} />
               <Card.Body>
                 <Card.Title>Team Task Manager</Card.Title>
                 <Card.Text>Full stack app to manage projects</Card.Text>
@@ -67,7 +70,7 @@ export default function Projects() {
           <Col>
             <br></br>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src={Employee} />
               <Card.Body>
                 <Card.Title>Team Builder</Card.Title>
                 <Card.Text>
@@ -88,7 +91,7 @@ export default function Projects() {
           <Col>
             <br></br>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src={Tech} />
               <Card.Body>
                 <Card.Title>Tech Blog</Card.Title>
                 <Card.Text>
@@ -104,7 +107,7 @@ export default function Projects() {
           <Col>
             <br></br>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src={Notes} />
               <Card.Body>
                 <Card.Title>Note Taker</Card.Title>
                 <Card.Text>
