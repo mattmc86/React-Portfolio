@@ -40,6 +40,8 @@ export default function Contact() {
             placeholder="email"
             required
           />
+          <br>
+          </br>
           <input
             value={name}
             name="name"
@@ -48,6 +50,7 @@ export default function Contact() {
             placeholder="name"
             required
           />
+          <br></br>
           <input
             value={message}
             name="message"
@@ -56,7 +59,8 @@ export default function Contact() {
             placeholder="message"
             required
           />
-
+          <br>
+          </br>
           <button type="button" onClick={handleFormSubmit}>
             Submit
           </button>
